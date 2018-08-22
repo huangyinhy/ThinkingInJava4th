@@ -7,7 +7,7 @@ public class BasicGenerator<T> implements Generator<T> {
 	}
 	public T next() {
 		try {
-			// Assumes type is a public clss:
+			// Assumes type is a public class:
 			return type.newInstance();
 		} catch(Exception e) {
 			throw new RuntimeException(e);
