@@ -3,6 +3,7 @@ package com.mylearning.enumerated;
 import java.util.*;
 
 import com.mylearning.util.Generator;
+import com.mylearning.util.TextFile;
 
 import static com.mylearning.enumerated.Input.*;
 
